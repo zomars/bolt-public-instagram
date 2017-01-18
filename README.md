@@ -4,7 +4,8 @@ Instagram
 This [bolt.cm](https://bolt.cm/) extension will get raw feed data from Instagram's public API. It makes use of [Vinkla's Instagram Package](https://github.com/vinkla/instagram).
 
 ### Installation
-Before installing on Bolt, you should first do `composer require vinkla/instagram` on your Bolt root folder to install the required library.
+Before installing on Bolt, you should first do `composer require vinkla/instagram` on your Bolt root folder to install the required library. Then:
+
 1. Login to your Bolt installation
 2. Go to "Extend" or "Extras > Extend"
 3. Type `instagram` into the input field
