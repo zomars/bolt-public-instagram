@@ -1,7 +1,7 @@
 Instagram
 ======================
 
-This [bolt.cm](https://bolt.cm/) extension will get raw feed data from Instagram's public API.
+This [bolt.cm](https://bolt.cm/) extension will get raw feed data from Instagram's public API. It makes use of [Vinkla's Instagram Package](https://github.com/vinkla/instagram).
 
 ### Installation
 1. Login to your Bolt installation
@@ -25,7 +25,6 @@ This will return an array of the latests posts in that profile.
   {{ dump(post) }}
 {% endfor%}
 ```
-...
 
 ### Notes
 Because this extension uses Instagram's public API it has the following limitations:
