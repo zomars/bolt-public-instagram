@@ -25,7 +25,8 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Bolt\\Extension\\Zomars\\Instagram\\": "src"
+            "Bolt\\Extension\\Zomars\\Instagram\\": "src",
+            "Vinkla\\Instagram\\": "lib"
         }
     },
     "autoload-dev": {
