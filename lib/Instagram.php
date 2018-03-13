@@ -59,7 +59,7 @@ class Instagram
 
             $response = $this->client->get($url);
 
-            return json_decode((string) $response->getBody(), true)['user']['media']['nodes'];
+            return json_decode((string) $response->getBody(), true)['graphql']['user']['edge_owner_to_timeline_media']['edges'];
         } catch (RequestException $e) {
             throw new InstagramException(sprintf('The user [%s] was not found.', $user));
         }
